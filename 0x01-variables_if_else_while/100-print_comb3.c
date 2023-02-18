@@ -12,7 +12,6 @@ int main(void)
 	for (x = 0; x <= 9; x++)
 	{
 		for (y = 0; y <= 9; y++)
-		{
 			int first_digit = x % 10;
 			int second_digit = y % 10;
 
@@ -23,8 +22,6 @@ int main(void)
 				if (x != 9 && y != 9)
 					putchar(',');
 					putchar(' ');
-
-		}
 	}
 
 	putchar('\n');
