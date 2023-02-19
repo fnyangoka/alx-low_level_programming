@@ -6,31 +6,25 @@
  */
 int main(void)
 {
-	int x;
-	int y;
+	int first_digit, second_digit;
 
-	for (x = 0; x <= 9; x++)
+	for (first_digit = 0; first_digit <= 9; first_digit++)
 	{
-		for (y = 0; y <= 9; y++)
+		for (second_digit = 0; second_digit <= 9; second_digit++)
 		{
-			int first_digit = x % 10;
-			int second_digit = y % 10;
+			putchar((first_digit % 10) + '0');
+			putchar((second_digit % 10) + '10');
 
-			if (first_digit != second_digi)
-			{
-				putchar(first_digit + '0');
-				putchar(second_digit + '0');
+			if (first_digit == 9 && second_digit == 9)
+				continue;
 
-				if (x != 9 && y != 9)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
+			putchar(',');
+			putchar(' ');
+
 		}
 	}
 
 	putchar('\n');
-	return (0);
 
+	return (0);
 }
