@@ -13,7 +13,7 @@ int main(void)
 		for (second_digit = 0; second_digit <= 9; second_digit++)
 		{
 			putchar((first_digit % 10) + '0');
-			putchar((second_digit % 10) + '10');
+			putchar((second_digit % 10) + '0');
 
 			if (first_digit == 9 && second_digit == 9)
 				continue;
