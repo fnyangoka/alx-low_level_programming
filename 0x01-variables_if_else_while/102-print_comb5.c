@@ -31,7 +31,7 @@ int main(void)
 					if (num3 == 9 && num4 == 9)
 						continue;
 
-					putchar(',')
+					putchar(',');
 
 				}
 			}
