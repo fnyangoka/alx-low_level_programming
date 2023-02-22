@@ -1,4 +1,5 @@
-#include "main.h"
+#include <stdio.h>
+
 /**
  * main - Lists all the natural numbers below 1024 (excluded)
  *        that are multiples of 3 or 5.
@@ -15,7 +16,7 @@ int main(void)
 			sum += i;
 	}
 
-	_putchar("%d\n", sum);
+	printf("%d\n", sum);
 
 	return (0);
 }
